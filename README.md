@@ -49,4 +49,4 @@ All the api calls to sever return simple json object. Adress used
 ## Looked like
 This is how the project looked like
 ![main page](https://github.com/shitCodeIsShit/web2FinalProject/blob/master/readmeImages/firefox_St4krCMfdD.png)
-![stats]()
+![stats](https://github.com/shitCodeIsShit/web2FinalProject/blob/master/readmeImages/firefox_002nGxaKAq.png)
