@@ -31,3 +31,5 @@ Clone -> cd to /projectFolder -> npm install -> install Tecnologies mentioned wi
 
 ## Looked like
 This is how the project looked like
+![main page](https://github.com/shitCodeIsShit/web2FinalProject/blob/master/readmeImages/firefox_St4krCMfdD.png)
+![stats](https://github.com/shitCodeIsShit/web2FinalProject/blob/master/readmeImages/firefox_d9HO3Bdk0P.png)
