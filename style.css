@@ -1,0 +1,76 @@
+body {
+    background-color: #5c9ec4;
+}
+
+h1 {
+    text-align: center;
+    color: ivory;
+    font-family: "Bell MT";
+}
+
+.box_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.box {
+    width: 25em;
+    height: 25em;
+    margin: 1px;
+    background-color: #e9e9f1;
+    text-align: center;
+}
+
+#box1 {
+    order: 1;
+    flex-grow: 1;
+}
+
+#box2 {
+
+    order: 1;
+    flex-grow: 1;
+}
+
+#box3 {
+    order: 1;
+    flex-grow: 1;
+}
+
+#box4 {
+    order: 1;
+    flex-grow: 1;
+}
+
+#box5 {
+    order: 2;
+    flex-grow: 1;
+}
+
+#box6 {
+    order: 2;
+    flex-grow: 1;
+}
+
+#box7 {
+    order: 2;
+    flex-grow: 1;
+}
+
+#box8 {
+    order: 2;
+    flex-grow: 1;
+}
+
+.stats-page-button {
+    background-color: #e9e9f1;
+    text-align: center;
+    margin-top: 10px;
+    padding: 2px;
+    color: #ff7f50;
+    font-size: 20px;
+    font-family: "Bell MT";
+}

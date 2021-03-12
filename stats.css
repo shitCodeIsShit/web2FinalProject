@@ -1,0 +1,36 @@
+body {
+    background-color: #5c9ec4;
+}
+
+.container_for_stats {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+
+#list-of-sounds {
+    background-color: #2f8818;
+    width: 50em;
+    height: 40em;
+    margin: 2px;
+    text-align: center;
+}
+
+#pie-chart{
+    background-color: #2f8818;
+    width: 50em;
+    height: 40em;
+    margin: 2px;
+}
+
+.sounds-page-button {
+    background-color: #e9e9f1;
+    text-align: center;
+    margin-top: 10px;
+    padding: 2px;
+    color: #ff7f50;
+    font-size: 20px;
+    font-family: "Bell MT";
+}

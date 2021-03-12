@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>web 2 Loppu projekti</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="node_modules/howler/src/howler.core.js"></script>
+    <script src="node_modules/animejs/lib/anime.js"></script>
+    <script src="node_modules/mysql/index.js"></script>
+</head>
+<body>
+<h1>Select sound and press repeatedly</h1>
+<div class="box_container">
+    <div id="box1" class="box"></div>
+    <div id="box2" class="box"></div>
+    <div id="box3" class="box"></div>
+    <div id="box4" class="box"></div>
+    <div id="box5" class="box"></div>
+    <div id="box6" class="box"></div>
+    <div id="box7" class="box"></div>
+    <div id="box8" class="box"></div>
+</div>
+<div id="statePageButton" class="stats-page-button" onmouseover="stats_button_over()" onmouseleave="stats_button_out()"
+     onclick="moveToStatsPage()">
+Stats
+</div>
+<script src="sounds.js"></script>
+<script src="db_connection.js"></script>
+</body>
+</html>
