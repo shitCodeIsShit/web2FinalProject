@@ -8,7 +8,7 @@ h1 {
     font-family: "Bell MT";
 }
 
-.box_container{
+.box_container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

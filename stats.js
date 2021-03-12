@@ -21,13 +21,13 @@ function getSoundsFromDB() {
 
 getSoundsFromDB()
 
-// get shit from the list and append li to ul with bootstrap attributes
+// get things from the list and append li to ul with bootstrap attributes
 function putSoundsFromDBToList(data) {
 
     var sortedArray = []
 
     // Lets put the JSON DATA to array for ez sort
-    for(var i in data){
+    for (var i in data) {
         sortedArray.push({value: [i, data[i]]})
     }
 
@@ -38,7 +38,7 @@ function putSoundsFromDBToList(data) {
     console.log(sortedArray)
 
     // Now that the data is sorted nicely we will put it in a list on html
-    for(var i in sortedArray){
+    for (var i in sortedArray) {
         var node = document.createElement("LI")
         node.className = "list-group-item"
         text = "Sound_ " + sortedArray[i].value[0] + " has clicks_: " + sortedArray[i].value[1].toString()
@@ -47,23 +47,24 @@ function putSoundsFromDBToList(data) {
         list_of_sounds.appendChild(node)
     }
 
+    // Here is canvasJS canvas you can find easy use tutorial in their website
     var chart = new CanvasJS.Chart("pie-chart", {
-        title:{
-            text: "Most favoured sound"
+        title: {
+            text: ""
         },
         data: [
             {
                 // Change type to "doughnut", "line", "splineArea", etc.
                 type: "column",
                 dataPoints: [
-                    { label: sortedArray[0].value[0],  y: sortedArray[0].value[1]  },
-                    { label: sortedArray[1].value[0], y: sortedArray[1].value[1]  },
-                    { label: sortedArray[2].value[0], y: sortedArray[2].value[1]  },
-                    { label: sortedArray[3].value[0],  y: sortedArray[3].value[1]  },
-                    { label: sortedArray[4].value[0],  y: sortedArray[4].value[1]  },
-                    { label: sortedArray[5].value[0],  y: sortedArray[5].value[1]  },
-                    { label: sortedArray[6].value[0],  y: sortedArray[6].value[1]  },
-                    { label: sortedArray[7].value[0],  y: sortedArray[7].value[1]  }
+                    {label: sortedArray[0].value[0], y: sortedArray[0].value[1]},
+                    {label: sortedArray[1].value[0], y: sortedArray[1].value[1]},
+                    {label: sortedArray[2].value[0], y: sortedArray[2].value[1]},
+                    {label: sortedArray[3].value[0], y: sortedArray[3].value[1]},
+                    {label: sortedArray[4].value[0], y: sortedArray[4].value[1]},
+                    {label: sortedArray[5].value[0], y: sortedArray[5].value[1]},
+                    {label: sortedArray[6].value[0], y: sortedArray[6].value[1]},
+                    {label: sortedArray[7].value[0], y: sortedArray[7].value[1]}
                 ]
             }
         ]

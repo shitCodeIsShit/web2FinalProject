@@ -2,6 +2,7 @@
 * [General info](#general-info)
 * [Technologies](#tecnologies)
 * [Setup](#setup)
+* [API calls](#apicalls)
 * [Looked like](#lookedlike)
 
 ## General info
@@ -20,6 +21,7 @@ Project is created with:
 * Basic HTML, CSS, JS, Some Bootstarp
 * Node js
 * Node express and mysql libraries
+* MySQL database
 
 Js libraries used:
 * Howler (sound)
@@ -29,7 +31,22 @@ Js libraries used:
 ## Setup
 Clone -> cd to /projectFolder -> npm install -> install Tecnologies mentioned with npm -> run node db_connection.js
 
+## Api calls
+
+All the api calls to sever return simple json object. Adress used
+(localhost:3000/)
+
+#### /getSoundData
+* Returns all sound names and the amount of clicks (array[])
+
+#### /getLowestSound
+* Returns sound that has the least click (name, clicks)
+
+#### /getHighestSound
+* Returns sound that has the most clicks (name, clicks)
+
+
 ## Looked like
 This is how the project looked like
 ![main page](https://github.com/shitCodeIsShit/web2FinalProject/blob/master/readmeImages/firefox_St4krCMfdD.png)
-![stats](https://github.com/shitCodeIsShit/web2FinalProject/blob/master/readmeImages/firefox_d9HO3Bdk0P.png)
+![stats]()

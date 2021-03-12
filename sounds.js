@@ -177,7 +177,7 @@ function stats_button_out() {
     stats_button.style.color = '#FF7F50'
 }
 
-function moveToStatsPage(){
+function moveToStatsPage() {
     window.location = 'stats.html'
 }
 

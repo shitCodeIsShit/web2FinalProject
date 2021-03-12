@@ -2,6 +2,11 @@ body {
     background-color: #5c9ec4;
 }
 
+h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
 .container_for_stats {
     display: flex;
     flex-direction: row;
@@ -11,14 +16,13 @@ body {
 }
 
 #list-of-sounds {
-    background-color: #2f8818;
     width: 45em;
     height: 40em;
     margin: 1px;
+    margin-top: 150px;
 }
 
 #pie-chart{
-    background-color: #2f8818;
     width: 45em;
     height: 40em;
     margin: 1px;
