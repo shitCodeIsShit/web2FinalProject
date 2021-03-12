@@ -7,9 +7,12 @@
 ## General info
 This is a end project for school course web2.
 It is a sound board that counts to database how meany times certains sound is clicked.
-To use this project you have to build your own database with following table
-Though this project might contain some usefull information about JS and library useage
+To use this project you have to build your own database with following table.
 
+This project is not mean to be used though it might contain some usefull information about JS and library useage
+
+DB layout
+![database schema](https://github.com/shitCodeIsShit/web2FinalProject/blob/master/readmeImages/firefox_n3OqSh8ErW.png)
 
 ## Tecnologies
 Project is created with:
