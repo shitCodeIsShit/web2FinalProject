@@ -6,12 +6,13 @@
 
 ## General info
 This is a end project for school course web2.
-It is a sound board that counts to database how meany times certains sound is clicked.
+It is a sound board that counts to database how meany times certain sound is clicked.
+Different tiles would produce different sound, and you could indicate your favourite
+by pressing it repeatedly
 To use this project you have to build your own database with following table.
 
-This project is not mean to be used though it might contain some usefull information about JS and library useage
+This project is not mean to be used though it might contain some useful information about JS and library useage
 
-DB layout
 ![database schema](https://github.com/shitCodeIsShit/web2FinalProject/blob/master/readmeImages/firefox_n3OqSh8ErW.png)
 
 ## Tecnologies
@@ -29,3 +30,4 @@ Js libraries used:
 Clone -> cd to /projectFolder -> npm install -> install Tecnologies mentioned with npm -> run node db_connection.js
 
 ## Looked like
+This is how the project looked like

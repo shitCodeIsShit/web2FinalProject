@@ -7,22 +7,21 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
 }
 
 #list-of-sounds {
     background-color: #2f8818;
-    width: 50em;
+    width: 45em;
     height: 40em;
-    margin: 2px;
-    text-align: center;
+    margin: 1px;
 }
 
 #pie-chart{
     background-color: #2f8818;
-    width: 50em;
+    width: 45em;
     height: 40em;
-    margin: 2px;
+    margin: 1px;
 }
 
 .sounds-page-button {
